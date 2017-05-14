@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "description": "A weather forecast app",
+  "version": "0.1.6",
+  "author": {
+    "name": "Harsha Deshmukh",
+    "email": "harsha.deshmukh432@gmail.com"
+  },
+  "scripts": {
+    "start": "node scripts/web-server.js"
+  },
+  "devDependencies": {
+      "phantomjs" : "*",
+      "karma" : "*",
+      "karma-junit-reporter" : "*",
+      "karma-jasmine" : "*",
+      "karma-ng-scenario" : "*"
+  }
+}
