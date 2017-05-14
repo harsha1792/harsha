@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="weather-app">
+<head>
+    <meta charset="UTF-8">
+    <title>Wheather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="weatherController">
+    <div class="container">
+        <header>Weather Forcast of {{city}}</header>
+        <div class="item-list" ng-repeat="data in dataList">
+            <div class="item"ng-repeat="(key,value) in data">
+             <span class="span-style">{{key}} : {{value}}</span>
+            </div>
+        </div>
+    </div>
+<script src="angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
